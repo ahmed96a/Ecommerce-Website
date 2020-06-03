@@ -1,0 +1,193 @@
+body
+{
+    background-color: #b9b9b9;
+}
+
+.asterik
+{
+    position: relative;
+    float: right;
+    bottom: 23px;
+    right: 6px;
+    color: #b75959;
+    height: 0
+}
+
+h1
+{
+    font-weight: bold;
+    margin: 40px 0;
+    font-size: 40px
+}
+
+.item-box
+{
+    position: relative;
+    height: 270px;
+    max-height: 270px;
+    overflow: hidden
+}
+
+.item-box .price
+{
+    position: absolute;
+    background-color: #8fa9c0;
+    padding: 4px;
+    left: 8px;
+    top: 8px;
+    border-radius: 6px
+}
+
+.item-box .caption p
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+                                /*                   Start upper-bar                  */
+
+.upper-bar .btn-default
+{
+    background-color: #b0a0a0
+}
+
+.upper-bar img
+{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 8px
+}
+
+.upper-bar .dropdown-toggle
+{
+    margin-top: 3px
+}
+
+                                /*                   End upper-bar                  */
+
+
+                                /*                   Start navbar.php                  */
+
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover
+{
+    background-color: #b0a0a0;
+    color: white;
+}
+
+.dropdown-menu
+{
+    background-color: #b0a0a0
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+{
+    color: white;
+    background-color: #8d6666
+}
+
+                                /*                   End navbar.php                     */
+
+
+
+                                /*                   Start login.php                   */
+
+.logsign h1
+{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.logsign h1 .login
+{
+    color: #1b4e7a
+}
+
+.logsign h1 .login:hover
+{
+    cursor: pointer;
+    color: #1b4e7a
+}
+
+.logsign h1 .signup:hover
+{
+    cursor: pointer;
+    color: #1a951a
+}
+
+.logsign form
+{
+    max-width: 420px;
+    margin: auto
+}
+
+.logsign form.signup
+{
+    display: none
+}
+                                /*                   End login.php                   */
+
+
+                                /*                   Start items.php               */
+
+.Item .comment-box
+{
+    overflow: auto
+}
+
+.Item .comment-box img
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px
+}
+
+.Item .comment-box p.comm
+{
+    margin-top: 25px;
+    background-color: #6c6b6b;
+    color: white;
+    padding: 5px 15px;
+    position: relative
+}
+
+.Item .comment-box p.comm::before
+{
+    content: "";
+    display: inline-block;
+    border-style: solid;
+    position: absolute;
+    border-width: 20px;
+    left: -40px;
+    top: 0px;
+    border-color: transparent #6c6b6b transparent transparent
+}
+
+                                /*                   End items.php               */
+
+                                /*                   Start profile.php               */
+
+
+.profile .ads .item-box .approve
+{
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    background-color: #b75c5c;
+    color: white;
+    padding: 2px 3px;
+    font-size: 12px
+}
+
+                                /*                   End profile.php                 */
