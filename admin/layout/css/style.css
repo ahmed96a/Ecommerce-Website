@@ -1,0 +1,465 @@
+body
+{
+    background-color: #b9b9b9;
+}
+
+
+                                /*                   Start index.php                     */
+
+.login
+{
+    max-width: 400px;
+    margin: 150px auto
+}
+
+.login h3
+{
+    color: #5f5e5e
+}
+
+.login .alert-success
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #ececec;
+    background-color: #4d8c34
+}
+
+.login .alert-danger
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #ececec;
+    background-color: #992727
+}
+
+.login .form-control
+{
+    margin-bottom: 10px;
+    background-color: #e9e9e9
+}
+
+
+                                /*                   End index.php                     */
+
+                                /*                   Start navbar.php                  */
+
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover
+{
+    background-color: #b0a0a0;
+    color: white;
+}
+
+.dropdown-menu
+{
+    background-color: #b0a0a0
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+{
+    color: white;
+    background-color: #8d6666
+}
+
+                                /*                   End navbar.php                     */
+
+                                /*                   Start members.php                  */
+
+
+body.member
+{
+    background-color: #b0a0a0
+}
+
+h2
+{
+    margin: 30px 0;
+    font-weight: bold;
+    color: #3e2a2a
+}
+
+.control-label
+{
+    font-size: 17px
+}
+
+.asterik
+{
+    position: relative;
+    float: right;
+    bottom: 23px;
+    right: 6px;
+    color: #b75959;
+    height: 0
+}
+
+.show-pass
+{
+    position: relative;
+    float: right;
+    bottom: 23px;
+    right: -15px;
+    height: 0
+}
+
+th
+{
+    text-align: center;
+    background-color: slategrey;
+    color: aliceblue
+}
+
+td
+{
+    color: #d1d1d1;
+    background-color: dimgrey;
+    vertical-align: middle !important
+}
+
+td img
+{
+    width: 50px;
+    height: 50px
+}
+
+td a:first-child
+{
+    margin-right: 5px;
+    margin-bottom: 5px
+}
+
+.formdel
+{
+    display: inline
+}
+
+.formdel input
+{
+    vertical-align: baseline
+}
+
+input[type='file']
+{
+    background-color: transparent;
+    border: none;
+    font-size: 12px
+}
+
+                                /*                   End members.php                     */
+
+                                /*                   Start dashboard.php                 */
+
+body.dashboard
+{
+    background-color: #dcdde1
+}
+
+h2
+{
+    color: #4b4545
+}
+
+.stat
+{
+    color: white;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.stat a
+{
+    color: white;
+    font-size: 40px
+}
+
+.stat h4
+{
+    margin: 10px 0
+}
+
+.members
+{
+    background-color: #7f8fa6
+}
+
+.pending
+{
+    background-color: #353b48
+}
+
+.items
+{
+    background-color: #487eb0
+}
+
+.comments
+{
+    background-color: #8c7ae6
+}
+
+.latest
+{
+    margin-top: 50px
+}
+
+.latest i.fa-plus, .latest i.fa-minus
+{
+    cursor: pointer
+}
+
+.latest ul
+{
+    margin-bottom: 0
+}
+
+.latest ul li
+{
+    padding: 10px 10px
+}
+
+.latest ul li:nth-child(odd)
+{
+    background-color: #d9edf7
+}
+
+.latest ul li a.btn
+{
+    padding: 2px 8px;
+    position: relative;
+    bottom: 3px
+}
+
+.latest ul li form input
+{
+    padding: 2px 8px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px
+}
+
+.latest .comment-box
+{
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.latest .comment-box span.comment-user
+{
+    width: 100px;
+    float: left;
+    background-color: #e9e9d7;
+    padding: 5px
+}
+
+.latest .comment-box p.comment-content
+{
+    width: calc(100% - 100px);
+    float: left;
+    background-color: #d2d2c6;
+    padding: 5px;
+    position: relative
+}
+
+.latest .comment-box p.comment-content::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #d2d2c6 transparent transparent;
+    left: -30px;
+    top: 0
+}
+
+.latest .comment-box .comment-action
+{
+    display: inline-block
+}
+
+.latest .comment-box .comment-action span.comment-item
+{
+    background-color: #b0b066;
+    padding: 2px 5px;
+    border-radius: 5px
+}
+
+.latest .comment-box .comment-action form
+{
+    display: inline-block
+}
+
+.latest .comment-box .comment-action form button
+{
+    padding: 1px 5px;
+}
+
+.latest .comment-box hr
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-top: 1px solid #bcbcbc
+}
+
+
+                                /*                   End dashboard.php                     */
+
+
+
+                                /*                   Start categories.php                    */
+
+.category .panel-heading .sort a
+{
+    color: white
+}
+
+.category .panel-heading .sort a.active
+{
+    color: black
+}
+
+.category .panel-body
+{
+    padding: 0
+}
+
+.category .panel-body .cat
+{
+    padding: 10px 15px 0;
+    position: relative;
+    overflow: hidden
+}
+
+.category .panel-body .cat:hover
+{
+    background-color: gainsboro
+}
+
+.category .panel-body .cat h4
+{
+    color: #337ab7;
+    cursor: pointer
+}
+
+.category .panel-body .cat hr
+{
+    border-top: 1px solid #337ab7;
+    margin: 10px 0 0 0
+}
+
+.category .panel-body .cat span
+{
+    color: white;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5px
+}
+
+.category .panel-body .cat .vis
+{
+    background-color: darkred
+}
+
+.category .panel-body .cat .com
+{
+    background-color: #373747
+}
+
+.category .panel-body .cat .ads
+{
+    background-color: grey
+}
+
+.category .panel-body .action
+{
+    position: absolute;
+    top: 15px;
+    right: -145px;
+    transition: all 0.5s
+}
+
+.category .panel-body .cat:hover .action
+{
+    right: 10px
+}
+
+.category .panel-body form
+{
+    display: inline-block
+}
+
+.category .panel-body .cat .cat-subs h5
+{
+    color: #b77171
+}
+
+.category .panel-body .cat .cat-subs ul li
+{
+    color: #6666b9;
+    padding: 10px 0
+}
+
+.category .panel-body .cat .cat-subs ul li .sub-action
+{
+    display: none
+}
+
+.category .panel-body .cat .cat-subs ul li:hover .sub-action
+{
+    display: inline-block;
+    margin-left: 20px
+}
+
+.category .panel-body form button
+{
+    padding: 1px 5px;
+}
+
+.radio
+{
+    bottom: 8px
+}
+
+                                /*                   End categories.php                      */
+
+
+                                /*                   Start items.php                         */
+
+.Item td form
+{
+    display: inline-block
+}
+
+.Item td form button
+{
+    padding: 1px 5px;
+    margin-bottom: 3px
+}
+
+                                /*                   End items.php                           */
+
+
+                                /*                   Start comments.php                        */
+
+.comment td form
+{
+    display: inline-block
+}
+
+.comment td form button
+{
+    padding: 1px 5px;
+    margin-bottom: 3px
+}
+
+
+                                /*                   End comments.php                           */
